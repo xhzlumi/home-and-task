@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>NCUhome</title>
+    <style>
+        span{
+           background-color: aliceblue;
+        }
+        input{
+            width: 500px;
+            height: 30px;
+         border-radius: 30px;
+        }
+        .cc{
+            text-decoration: underline;
+        }
+        p{
+          
+            text-indent: -480em;
+            font-size: 1px;
+        }
+        body{
+          background-image: url(../RW198v3.jpeg);
+         
+         
+         
+        }
+    </style>
+</head>
+<body>
+    <script class="Main">
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() +1;
+        var day = now.getDate();
+        var hh = now.getHours();
+        var mm = now.getMinutes();
+         var clock = year +"-";
+         if(month<10)
+         clock +="0";
+        clock +=month+"-";
+        if(day<10)
+        clock+="0";
+    clock+=day+"";
+    if(hh<10)
+    clock+="0";
+        clock+=hh+":";
+        if(mm<10) clock+="0";
+        clock +=mm;
+        document.write(clock);
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;"  >
+        <form action="https://www.baidu.com/s" >
+            <button class="search"><img src="../search.svg" ></button>
+        <input  type="text" name="wd" placeholder="搜索一下"  >
+      <button><img src="../undo.svg"></button>
+        <button id="qc"><img src="../fire.svg"></button>
+        </form>
+    
+  
+    <p>搜索发现:</p>
+    <ul>
+   <span>南大家园</span> <span>家园工作室</span>  <span>云家园</span> <span>南昌大学</span>  <span>家园小镇</span>  <span>机房ha'...</span> <span>研发组</span>
+   <br>
+    <br> <span>设计组</span>                <span>小家园</span> </br>
+
+</ul>
+        <p class="cc">清空历史记录</p>
+    </div
+</body>
+</html>
